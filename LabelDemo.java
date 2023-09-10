@@ -1,0 +1,19 @@
+public class LabelDemo {
+    public static void main(String[] args) {
+        outer:
+        for(int i=1;i<=10;i++)
+        {
+            System.out.println("outer loop"+i);
+            for(int j=i;j<=10;j++)
+            {
+                if(j>i)
+                    break outer;
+                    
+
+            }
+        }
+         System.out.println("")
+        
+    }
+    
+}
