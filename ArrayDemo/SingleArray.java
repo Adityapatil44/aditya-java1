@@ -1,0 +1,16 @@
+package ArrayDemo;
+
+public class SingleArray {
+    public static void main(String[] args) {
+        int i;
+        String friends_name[]={"Aditya","Virat","Rohit","Gill"};
+
+        for(i=0;i<=3;i++)
+        {
+            System.out.println(friends_name[i]);
+        }
+
+    }
+
+    
+}
